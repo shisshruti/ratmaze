@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=sol
+comment0.target=void\ printSolution(int[][])
+comment0.text=\ A\ utility\ function\ to\ print\ solution\ matrix\ \ \r\nsol[N][N]
+comment1.params=maze\ x\ y
+comment1.target=boolean\ isSafe(int[][],\ int,\ int)
+comment1.text=\ A\ utility\ function\ to\ check\ if\ x,\ y\ is\ valid\ \ \r\nindex\ for\ N*N\ maze
+comment2.params=maze
+comment2.target=boolean\ solveMaze(int[][])
+comment2.text=\ This\ function\ solves\ the\ Maze\ problem\ using\ \ \r\n\ \ \ \ Backtracking.\ It\ mainly\ uses\ solveMazeUtil()\ \ \r\n\ \ \ \ to\ solve\ the\ problem.\ It\ returns\ false\ if\ no\ \ \r\n\ \ \ \ path\ is\ possible,\ otherwise\ return\ true\ and\ \ \r\n\ \ \ \ prints\ the\ path\ in\ the\ form\ of\ 1s.\ Please\ note\ \ \r\n\ \ \ \ that\ there\ may\ be\ more\ than\ one\ solutions,\ this\ \ \r\nfunction\ prints\ one\ of\ the\ feasible\ solutions.
+comment3.params=maze\ x\ y\ sol
+comment3.target=boolean\ solveMazeUtil(int[][],\ int,\ int,\ int[][])
+comment3.text=\ A\ recursive\ utility\ function\ to\ solve\ Maze\ \ \r\nproblem
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
